@@ -2,7 +2,7 @@
 
 ### Postman Collection
 
-I have included a Postman collection for getting started with data extraction from Aha.io.
+In this repository I have included a Postman collection for getting started with data extraction from Aha.io.
 
 ### Extracting Data via Python w/ ahapy
 
