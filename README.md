@@ -1,4 +1,4 @@
-## Working with Data in Aha.io
+## Extracting Data From Aha.io
 
 ### Postman Collection
 
