@@ -8,6 +8,15 @@ I have included a Postman collection for getting started with data extraction fr
 
 https://pypi.org/project/ahapy/
 
+
+Install ahapy:
+
+```
+pip install ahapy
+```
+
+Example python for how to get all initiatives:
+
 ```python
 from ahapy import AhaV1
 
