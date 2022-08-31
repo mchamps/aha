@@ -8,7 +8,8 @@ In this repository I have included a Postman collection for getting started with
 
 ### Extracting Data via Python w/ ahapy
 
-https://pypi.org/project/ahapy/
+- https://pypi.org/project/ahapy/
+- https://github.com/henkhaus/ahapy
 
 
 Install ahapy:
