@@ -1,4 +1,4 @@
-This is in no way associated with Aha.io. For Aha.io API documentation, please visit aha.io/api.
+This is in no way associated with Aha.io. For Aha.io API documentation, please visit https://aha.io/api.
 
 ## Extracting Data From Aha.io
 
