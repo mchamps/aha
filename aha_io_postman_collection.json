@@ -1,0 +1,602 @@
+{
+	"info": {
+		"_postman_id": "b5c25146-cf10-48ae-abb6-ed4e75444247",
+		"name": "Aha.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products - List All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Products - Get A Specific Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products/B2EB",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"B2EB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Products - Get A Specific Product (Product Line = True)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products/B2EB",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"B2EB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Competitors - List Competitors In A Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products/B2EB/competitors",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"B2EB",
+						"competitors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Personas - List Personas In A Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products/B2EB/personas",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"B2EB",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Goals - List All Goals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/goals",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"goals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Goals - Get A Specific Goal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/goals/7096535164077822842",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"goals",
+						"7096535164077822842"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Strategic Visions - List All Strategic Visions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/strategy_visions",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"strategy_visions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Strategic Models - List All Strategic Models",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/strategy_models",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"strategy_models"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Strategic Positions - List All Strategic Positions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/strategy_positions",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"strategy_positions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Initiatives - List All Initiatives",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Initiatives - Get A Specific Initiative",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Releases - List Releases In A Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/products/B2EB/releases",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"B2EB",
+						"releases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Releases - Get A Specific Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/releases/B2EB-R-1",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"releases",
+						"B2EB-R-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Release Phases - List Phases For A Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/releases/B2EB-R-1/release_phases",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"releases",
+						"B2EB-R-1",
+						"release_phases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Epics - List All Epics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Epics - Get A Specific Epic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Features - List All Features",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Features - Get A Specific Feature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/DEMO-16",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						"DEMO-16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Requirements - List Requirements For A Feature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/DEMO-16/requirements",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						"DEMO-16",
+						"requirements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ideas - List All Ideas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/features/",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"features",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - List All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/users",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Custom Pivots - Get the List View of A Saved Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.aha.io/api/v1/bookmarks/custom_pivots/7137891213306550581?view=list",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"aha",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"bookmarks",
+						"custom_pivots",
+						"7137891213306550581"
+					],
+					"query": [
+						{
+							"key": "view",
+							"value": "list"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Custom Pivots - Get the Pivot View of A Saved Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-aha-instance.io/api/v1/bookmarks/custom_pivots/7137891213306550581?view=pivot",
+					"protocol": "https",
+					"host": [
+						"my-aha-instance",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"bookmarks",
+						"custom_pivots",
+						"7137891213306550581"
+					],
+					"query": [
+						{
+							"key": "view",
+							"value": "pivot"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "aaaaaaa",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
