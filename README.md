@@ -25,6 +25,7 @@ from ahapy import AhaV1
 
 aha = AhaV1('yourAHAsubdomain', 'yourAPIkey')
 
+# Plug in any endpoint - aha.query('ENDPOINT_NAME')
 data = aha.query('initiatives')
 
 for i in data:
